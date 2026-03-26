@@ -1,0 +1,22 @@
+{
+  "name": "package-sorter",
+  "version": "1.0.0",
+  "description": "Package classification system based on volume and mass",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "jest --coverage"
+  },
+  "keywords": ["typescript", "sorting", "algorithm"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^20.0.0",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  }
+}
